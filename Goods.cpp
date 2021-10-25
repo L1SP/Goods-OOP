@@ -40,7 +40,7 @@ void Goods::changeCount(bool increase, int _count) {
 		count -= _count;
 }
 std::string Goods::toString() {
-	std::string ans = "Товар: "+name+"\nВ наличии: "+std::to_string(count)+"\nЦена за единицу товара: "+std::to_string(price);
-	ans += "\nДата поступления: "+date+"\nНомер накладной: "+std::to_string(number);
+	std::string ans = "РўРѕРІР°СЂ: "+name+"\nР’ РЅР°Р»РёС‡РёРё: "+std::to_string(count)+"\nР¦РµРЅР° Р·Р° РµРґРёРЅРёС†Сѓ С‚РѕРІР°СЂР°: "+std::to_string(price);
+	ans += "\nР”Р°С‚Р° РїРѕСЃС‚СѓРїР»РµРЅРёСЏ: "+date+"\nРќРѕРјРµСЂ РЅР°РєР»Р°РґРЅРѕР№: "+std::to_string(number);
 	return ans;
 }
